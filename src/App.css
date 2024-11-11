@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+
+.count-number{
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.countero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-plus{
+  margin-left: 0.2rem;
+}
+
+
+button{
+  background-color: aqua;
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+
+
+.incre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem
+}
+
+.ino{
+  height: 1.5rem;
+}
+
+.reset{
+  font-size: 1rem;
+}
+
+
+button:hover{
+  filter: brightness(150%);
+}
